@@ -24,5 +24,3 @@ sudo apt-get install build-essential
 ./tensorflow/lite/tools/make/build_rk3399_lib.sh
 
 This should compile a static library in: tensorflow/lite/tools/make/gen/lib/rk3399_armv8/libtensorflow-lite.a
-
-![image](https://github.com/wangshankun/rk3399_tf_lite/blob/master/readme.png)
