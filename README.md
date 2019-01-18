@@ -31,6 +31,6 @@ https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/512712/#outline__7
 
 https://www.tensorflow.org/lite/rpi
 
-label_image执行结果(比树莓派快80%):
+label_image执行结果(比树莓派快两倍多):
 
 ![image](https://github.com/wangshankun/rk3399_tf_lite/blob/master/readme.jpg)
