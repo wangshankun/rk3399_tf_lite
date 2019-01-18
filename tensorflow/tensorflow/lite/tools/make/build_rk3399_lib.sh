@@ -1,4 +1,4 @@
-#!/bin/sh -x
+#!/bin/bash -x
 # Copyright 2017 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,4 +19,5 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR/../../../.."
 
-make -j 6 -f tensorflow/lite/tools/make/Makefile TARGET=rk3399 TARGET_ARCH=armv8
+#make -j 6 -f tensorflow/lite/tools/make/Makefile TARGET=rk3399 TARGET_ARCH=armv8
+make -j 3 -f tensorflow/lite/tools/make/Makefile TARGET=rk3399 TARGET_ARCH=armv8
