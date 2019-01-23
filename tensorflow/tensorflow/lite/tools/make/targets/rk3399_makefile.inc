@@ -1,5 +1,6 @@
 # Settings for RK3399
 
+#native compile not use TARGET.....
 #TARGET_ARCH := arm64
 #TARGET_ARCH := armv7l
 #TARGET_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
@@ -12,6 +13,7 @@ CXXFLAGS += \
     -fomit-frame-pointer \
     -DRASPBERRY_PI \
     -D_GLIBCXX_USE_CXX11_ABI=0 \
+    -DTFLITE_PROFILING_ENABLED \
     -fPIC
 
 CCFLAGS += \
@@ -22,6 +24,7 @@ CCFLAGS += \
     -fomit-frame-pointer \
     -DRASPBERRY_PI \
     -D_GLIBCXX_USE_CXX11_ABI=0 \
+    -DTFLITE_PROFILING_ENABLED \
     -fPIC
 
 LDFLAGS := \
